@@ -1,3 +1,6 @@
 [submodule "about_Falko"]
 	path = about_Falko
 	url = https://github.com/LeshkaFalko/ProjectFalcon
+[submodule "about_Chernov"]
+	path = about_Chernov
+	url = https://github.com/macJIuHa/OAP_11_1
