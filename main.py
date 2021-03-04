@@ -6,7 +6,7 @@ main.py - модуль, который выводит мои
 """
 
 # определение функции
-def tell_about(first_name, last_name, group):
+def tell_about(first_name="Олег", last_name="Серебрянников", group="РКТ2-81"):
     """
     Простая функция выводит основную информацию о студенте
     """
@@ -26,6 +26,8 @@ def tell_about(first_name, last_name, group):
 # Данное условие выполняется, если модуль запускается как основная программа
 if __name__ == "__main__":
     # запуск (вызов) функции
-    tell_about(first_name="Олег", last_name="Серебрянников", group="РКТ2-81")
+    tell_about()
     # Или так
+    # tell_about(first_name="Олег", last_name="Серебрянников", group="РКТ2-81")
     # tell_about("Олег", "Серебрянников", "РКТ2-81")
+    # tell_about("Олег", "Серебрянников")
