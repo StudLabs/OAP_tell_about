@@ -4,3 +4,6 @@
 [submodule "about_Chernov"]
 	path = about_Chernov
 	url = https://github.com/macJIuHa/OAP_11_1
+[submodule "about_Erahtin"]
+	path = about_Erahtin
+	url = https://github.com/QWertyIX/study_oap_program1
