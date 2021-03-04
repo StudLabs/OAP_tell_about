@@ -6,15 +6,15 @@ main.py - модуль, который выводит мои
 """
 
 # определение функции
-def tell_about(firstname, surname, group):
+def tell_about(first_name, last_name, group):
     """
     Простая функция выводит основную информацию о студенте
     """
     print("Здравствуйте, я студент")
     # используем f-строки для форматного вывода
     # можно также использовать str.format, % или просто +
-    print(f"\tИмя:     {firstname}")
-    print(f"\tФамилия: {surname}")
+    print(f"\tИмя:     {first_name}")
+    print(f"\tФамилия: {last_name}")
     print(f"\tГруппа:  {group}")
     # символ \t - добавляет символ табуляции (tab) в начало строки
 
@@ -26,6 +26,6 @@ def tell_about(firstname, surname, group):
 # Данное условие выполняется, если модуль запускается как основная программа
 if __name__ == "__main__":
     # запуск (вызов) функции
-    tell_about(firstname="Олег", surname="Серебрянников", group="РКТ2-81")
+    tell_about(first_name="Олег", last_name="Серебрянников", group="РКТ2-81")
     # Или так
     # tell_about("Олег", "Серебрянников", "РКТ2-81")
